@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-       <h1> Welcome Home page</h1>
+       <h1> Welcome Home page - Tran van hung</h1>
        <h2>[{URL}]</h2>
        <Home />
        </div>
