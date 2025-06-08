@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Home from './page/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +9,7 @@ function App() {
       <div>
        <h1> Welcome Home page</h1>
        <h2>[{URL}]</h2>
+       <Home />
        </div>
     </>
   )
