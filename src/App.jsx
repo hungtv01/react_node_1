@@ -5,11 +5,12 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const URL  = import.meta.env.VITE_HOME
   return (
     <>
       <div>
        <h1> Welcome Home page</h1>
+       <h2>[{URL}]</h2>
        </div>
     </>
   )
